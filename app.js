@@ -6,7 +6,7 @@ var builder = require('botbuilder');
 var server = restify.createServer();
 server.listen(process.env.PORT || 3000, function() 
 {
-   console.log('%s listening to %s', server.name, server.url); 
+   console.log('%s listening to  this %s', server.name, server.url); 
 });
 
 // Create chat bot
